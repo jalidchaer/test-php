@@ -20,4 +20,10 @@ Para resetear la base de datos ejecutar el comando ```composer phinx-rollback```
 
 Para crear una nueva migración ejecutar el comando ```composer phinx-create```
 
-Para levantar el servidor ejecutar el comando ```php -S localhost:8080```
+Para levantar el servidor para el uso de la API ejecutar el comando ```php -S localhost:8080```
+
+STACK UTILIZADO 
+
+XAMPP
+
+versión de PHP 7.4.29
