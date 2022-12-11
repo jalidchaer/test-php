@@ -11,13 +11,13 @@ Pasos para ejecutar el test
 
 5. Clonar el archivo ```.env.template``` y renombrarlo a ```.env```
 
-6. Ejecutar la migración con el comando ```phinx-migrate```
+6. Ejecutar la migración con el comando ```composer phinx-migrate```
 
-7. Para el test ejecutar el comando ```run-tests```
+7. Para el test ejecutar el comando ```composer run-tests```
 
 
-Para resetear la base de datos ejecutar el comando ```phinx-rollback```
+Para resetear la base de datos ejecutar el comando ```composer phinx-rollback```
 
-Para crear una nueva migración ejecutar el comando ```
+Para crear una nueva migración ejecutar el comando ```composer phinx-create```
 
 Para levantar el servidor ejecutar el comando ```php -S localhost:8080```
