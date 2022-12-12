@@ -15,6 +15,8 @@ Pasos para ejecutar el test
 
 7. Para el test ejecutar el comando ```composer run-tests```
 
+Ejecutar el rollback con el comando ```composer phinx-rollback```
+
 Para crear una nueva migración ejecutar el comando ```composer phinx-create```
 
 Para levantar el servidor para el uso de la API ejecutar el comando ```php -S localhost:8080```
